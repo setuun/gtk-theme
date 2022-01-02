@@ -18,16 +18,16 @@ Things to look at:
  - [gtk3-widget-factory](#gtk) (in package `gtk-3-examples`)
  - [Gnome-Tweak-Tool](#gtt)
  - [GNOME Shell](#shell)
- 
+
  **Things to check in gtk3-widget-factory**<a name="gtk"></a>
- 
+
  Make sure different items are colored properly such as detailed below:
- 
+
  *Blue:*
  - Selected/highlighted content
  - variable/ scaling controls - progress bars, scales, level bars
  - General Content-relevant controls
- 
+
  *Orange:*
  - Binary on/off actions
  - radio buttons
@@ -36,36 +36,36 @@ Things to look at:
  - Pathbars
  - Focused entries
  - General context-display controls
-  
+
  *Green:*
  - Save buttons once they can be clicked
  - Affirmative/progressive action buttons/controls
- 
- *Header and title bars:* 
+
+ *Header and title bars:*
  - brown in normal theme (#574F4A)
  - dark theme - dark grey (#363636)
  - Close button is red-orange #f68f00
    - Inactive windows have no close button background.
 
- 
+
  *Window Backgrounds:*
  - light grey in normal theme (#F6F6F6)
  - dark grey in dark theme (#303030)
- 
+
  *Progress spinner/eyeball should invert colors in dark theme*
 
  *Text/Input Colors*
  - Very light grey in light theme, (#FCFCFC)
  - Very dark grey in dark theme (#2A2A2A)
- 
+
 **Gnome-Tweak-Tool**<a name="gtt"></a>
- 
+
  *2 themes:*
   - Pop
   - Pop-Dark
 
  **GNOME Shell**<a name='shell'></a>
- 
+
  *General Items*
  - Correct font is used for all text.
  - Theme switches with light/dark mode.
@@ -82,11 +82,11 @@ Things to look at:
  - Hovered item has grey background.
  - User Icon is the correct size
  - All text is aligned
- 
+
  *Calendar / Notifications*
  - Selected Day is Orange with black text.
  - Weekend days are faded out.
- - Notifications have grey outline. 
+ - Notifications have grey outline.
  - Notifications have lighter background.
  - Active switch has orange background
 
@@ -95,7 +95,7 @@ Things to look at:
  - Icons are crisp.
  - Search bar changes with dark theme.
  - Search bar text is readable in light and dark theme.
- 
+
  **Other things to note:**
  - Everything needs to be legible/high contrast
   - Shooting for 7.5:1 contrast ratios
@@ -107,23 +107,23 @@ Things to look at:
  - Gimp can be used to get hex values from screenshots
 
  **If something visibly looks off, check the color hex values.**
- 
+
  *Color hex values:*
- - Text and monocromatic images: 
+ - Text and monocromatic images:
   - Light theme: #222222
   - Dark theme: #cccccc
- - Header/Title Bars: 
+ - Header/Title Bars:
   - Light theme: #222222
   - Dark theme: #363636
- - Window background: 
+ - Window background:
   - Light theme: #F6F6F6 / #FCFCFC
   - Dark theme: #303030  / #272727
  - Green selection:
   - Light theme: #82BF8C / #90CFB0
   - Dark theme: #90CFB0  / #ACF7D2
- - Orange: 
+ - Orange:
   - Light theme: #FFAD00 / #FBB86C
   - Dark theme: #FBB86C / #FFD7A1
- - Blue: 
-  - Light theme: #63B1BC / #6ACAD8
-  - Dark theme: #6ACAD8 / #63B1BC
+ - Blue:
+  - Light theme: #63B1BC / #feb573
+  - Dark theme: #feb573 / #63B1BC

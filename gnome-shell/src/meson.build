@@ -34,7 +34,7 @@ if not gnomeshell_use_gresource
         ';'.join([
           'output="$1/$(realpath --relative-to="'+ meson.current_source_dir() + '" $0)"',
           'mkdir -p $(dirname "$output")',
-          'sed "s,resource:///org/gnome/shell/theme/,,g" "$0" > "$output"',
+          'sed "s,,,g" "$0" > "$output"',
         ]),
         '@INPUT@',
         '@OUTDIR@',
@@ -87,7 +87,7 @@ foreach variant: variants
       depend_files: theme_sources,
     )
   endforeach
-  
+
   if not gnomeshell_use_gresource
     meson.add_install_script(
       'install-switcher-themes.sh',

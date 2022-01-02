@@ -5,14 +5,14 @@ $highlights_orange: if($variant=='light', #FBB86C, #FFAD00);
 $text_orange: if($variant=='light', #AF5C02, #FFD7A1);
 
 // blue
-$blue: if($variant=='light', #63B1BC, #6ACAD8);
-$highlights_blue: if($variant=='light', #6ACAD8, #63B1BC);
-$text_blue: if($variant=='light', #00496D, #94EBEB);
+$blue: if($variant=='light', #63B1BC, #FEB573);
+$highlights_blue: if($variant=='light', #feb573, #FFD7A1);
+$text_blue: if($variant=='light', #00496D, #FBB86C);
 
 // green
-$green: if($variant=='light', #82BF8C, #90CFB0);
-$highlights_green: if($variant=='light', #90CFB0, #82BF8C);
-$text_green: if($variant=='light', #3B6E43, #ACF7D2);
+$green: if($variant=='light', #82BF8C, #FEB573);
+$highlights_green: if($variant=='light', #90CFB0, #FFD7A1);
+$text_green: if($variant=='light', #3B6E43, #FBB86C);
 
 // red
 $red: if($variant=='light', #E56A54, #EA9090);
@@ -46,14 +46,14 @@ $dark_warm_grey: #574F4A;
 
 // ui
 
-// Light Neutral Grey 
+// Light Neutral Grey
 $light_neutral_grey_100: #EEE;
 $light_neutral_grey_300: #CCC;
 $light_neutral_grey_500: #AAA;
 $light_neutral_grey_700: #888;
 $light_neutral_grey_900: #666;
 
-// Dark Neutral Grey 
+// Dark Neutral Grey
 $dark_neutral_grey_100: #888;
 $dark_neutral_grey_300: #666;
 $dark_neutral_grey_500: #444;
