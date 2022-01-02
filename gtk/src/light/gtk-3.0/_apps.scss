@@ -14,7 +14,7 @@ list.tweak-categories separator {
 /******************
  * GNOME Calendar *
  ******************/
- 
+
 // Week view event labels with a light background.
 .color-light.vertical > stack > grid > label {
   color: black;
@@ -45,11 +45,11 @@ list.tweak-categories separator {
 ***********/
 
 // Disk Space Pie Chart
-// Code from 
+// Code from
 // gitlab.gnome.org/GNOME/nautilus/blob/master/src/resources/css/Adwaita.css
 .disk-space-display {
   $disk_space_unknown: #888;
-  $disk_space_used: #6ACAD8;
+  $disk_space_used: #FEB573;
   $disk_space_free: #eeeeec;
   border-style: solid;
   border-width: 2px;
@@ -99,13 +99,13 @@ list.tweak-categories separator {
     border-radius: $button_radius;
     transition: all 200ms $ease-out-quad;
     @include button(normal, $_headerbar_button_bg, $headerbar_fg_color);
-    
+
     &:backdrop {
       @include button(backdrop, $backdrop_headerbar_bg_color, $backdrop_headerbar_fg_color);
       border-color: $_btn_backdrop_border;
     }
   }
-  
+
   .path-bar-box button {
     margin: 0px;
 
@@ -118,7 +118,7 @@ list.tweak-categories separator {
       border-width: 0px 1px 0px 1px;
       border-radius: 0px;
     }
-    
+
     &:not(:checked) image {
       opacity: 0.8; /* dim the icon when not checked */
     }
@@ -127,7 +127,7 @@ list.tweak-categories separator {
   // Make sure tags fit inside the search entry
   entry.search > * {
     margin: 5px;
-  }  
+  }
 
   // Makes icons less bright in backdrop
   @at-root %dim_icons_in_backdrop,
@@ -525,7 +525,7 @@ headerbar button image ~ window decoration ~ menu separator {
 
   // Set a darker text-selection background
   // Ideally we don't need this, but https://bugzilla.mozilla.org/show_bug.cgi?id=1703679
-  // tells Firefox to use the FG color instead of the BG color. Thus we need to 
+  // tells Firefox to use the FG color instead of the BG color. Thus we need to
   // Tell Firefox that we're using a different color than we normally are.
   // We then set the selection foreground color to be white to force Firefox
   // to use the correct one
@@ -564,10 +564,10 @@ headerbar button image ~ window decoration ~ menu separator {
     &:disabled {@include button(insensitive);}
   }
 
-/*********************	
-  * Chrome / Chromium *	
-  *********************/	
-  window.background.chromium {	
+/*********************
+  * Chrome / Chromium *
+  *********************/
+  window.background.chromium {
   @if $variant=='dark' {
     menu { border: 1px solid lighten($inkstone,1%); }
   }

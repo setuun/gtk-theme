@@ -1,6 +1,6 @@
 // This file is part of the Pop!_GTK Theme.
 // See gtk.scss for full license and copyright information
-/* 
+/*
  * _nice-scales.scss - Scales for things like temperature
  *
  * File credits: Ian Santopietro <isantop@gmail.com>
@@ -10,21 +10,21 @@ scale {
   &.temperature trough {
     background-image: linear-gradient(
       to right,
-      rgba(#94EBEB, 0.4),
+      rgba(#FEB573, 0.4),
       $light_neutral_grey_300,
       #FFD7A1
     );
   }
-  
+
   &.temperature:dir(rtl) trough {
     background-image: linear-gradient(
       to left,
-      rgba(#94EBEB, 0.4),
+      rgba(#FEB573, 0.4),
       $light_neutral_grey_300,
       #FFD7A1
     );
   }
-  
+
   &.warmth trough {
     background-image: linear-gradient(
       to right,
@@ -39,7 +39,7 @@ scale {
       rgba(#FFAD00, 0.6)
     );
   }
-  
+
   trough:disabled {
     background-image: none;
   }
