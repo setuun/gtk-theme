@@ -10,3 +10,7 @@ $variant: 'light';
 @import 'drawing';
 @import 'common';
 @import 'colors-public';
+
+* {
+  border-radius: 0 !important;
+}

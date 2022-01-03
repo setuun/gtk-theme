@@ -15,3 +15,7 @@ $variant: 'light';
 @import 'granite/granite';
 @import 'hdy/pop';
 @import 'colors-public';
+
+* {
+  border-radius: 0 !important;
+}

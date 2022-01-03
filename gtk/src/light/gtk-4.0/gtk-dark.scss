@@ -4,3 +4,7 @@ $variant: 'dark';
 @import 'drawing';
 @import 'common';
 @import 'colors-public';
+
+* {
+  border-radius: 0 !important;
+}

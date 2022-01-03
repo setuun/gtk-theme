@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
 <svg
    xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
    xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -8,15 +10,15 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="14"
-   inkscape:version="1.0beta1 (fe3e306978, 2019-09-17)"
-   version="1.1"
-   id="svg7384"
-   height="14"
-   inkscape:export-ydpi="90"
-   inkscape:export-xdpi="90"
+   sodipodi:docname="bullet-symbolic.svg"
    inkscape:export-filename="/home/sam/dev/RESOURCES/gnome-icon-theme-symbolic/src/gnome-stencils.png"
-   sodipodi:docname="bullet-symbolic.svg">
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90"
+   height="14"
+   id="svg7384"
+   version="1.1"
+   inkscape:version="0.92.4 5da689c313, 2019-01-14"
+   width="14">
   <metadata
      id="metadata90">
     <rdf:RDF>
@@ -30,125 +32,124 @@
     </rdf:RDF>
   </metadata>
   <sodipodi:namedview
-     inkscape:document-rotation="0"
-     inkscape:showpageshadow="false"
-     inkscape:zoom="22.005438"
-     inkscape:window-y="339"
-     inkscape:window-x="473"
-     inkscape:window-width="1834"
-     inkscape:window-maximized="0"
-     inkscape:window-height="865"
-     inkscape:snap-to-guides="true"
-     inkscape:snap-others="false"
-     inkscape:snap-nodes="false"
-     inkscape:snap-grids="true"
-     inkscape:snap-global="true"
-     inkscape:snap-bbox-midpoints="false"
-     inkscape:snap-bbox="true"
-     showguides="true"
-     showgrid="false"
-     showborder="true"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="1"
-     pagecolor="#3a3b39"
-     objecttolerance="10"
-     inkscape:object-paths="false"
-     inkscape:object-nodes="true"
-     id="namedview88"
-     guidetolerance="10"
-     inkscape:guide-bbox="true"
-     gridtolerance="10"
-     inkscape:cy="5.5864571"
-     inkscape:cx="9.376675"
-     inkscape:current-layer="layer9"
-     borderopacity="1"
-     bordercolor="#666666"
+     inkscape:bbox-nodes="true"
      inkscape:bbox-paths="true"
-     inkscape:bbox-nodes="true">
+     bordercolor="#666666"
+     borderopacity="1"
+     inkscape:current-layer="layer9"
+     inkscape:cx="6.1684486"
+     inkscape:cy="5.9327595"
+     gridtolerance="10"
+     inkscape:guide-bbox="true"
+     guidetolerance="10"
+     id="namedview88"
+     inkscape:object-nodes="true"
+     inkscape:object-paths="false"
+     objecttolerance="10"
+     pagecolor="#3a3b39"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     showborder="true"
+     showgrid="true"
+     showguides="true"
+     inkscape:snap-bbox="true"
+     inkscape:snap-bbox-midpoints="false"
+     inkscape:snap-global="true"
+     inkscape:snap-grids="true"
+     inkscape:snap-nodes="false"
+     inkscape:snap-others="false"
+     inkscape:snap-to-guides="true"
+     inkscape:window-height="1376"
+     inkscape:window-maximized="1"
+     inkscape:window-width="3440"
+     inkscape:window-x="0"
+     inkscape:window-y="639"
+     inkscape:zoom="62.240778"
+     inkscape:showpageshadow="false">
     <inkscape:grid
-       visible="true"
-       type="xygrid"
-       spacingy="1"
-       spacingx="1"
-       snapvisiblegridlinesonly="true"
-       originy="120"
-       originx="-139.99995"
-       id="grid4866"
-       enabled="true"
+       dotted="false"
        empspacing="2"
-       dotted="false" />
+       enabled="true"
+       id="grid4866"
+       originx="-139.99995"
+       originy="120"
+       snapvisiblegridlinesonly="true"
+       spacingx="1"
+       spacingy="1"
+       type="xygrid"
+       visible="true" />
   </sodipodi:namedview>
   <title
      id="title9167">Gnome Symbolic Icon Theme</title>
   <defs
      id="defs7386">
     <linearGradient
-       osb:paint="solid"
+       gradientTransform="matrix(-2.7365795,0.28202934,-0.18908311,-0.99988321,239.54008,-879.45557)"
        id="linearGradient19282"
-       gradientTransform="matrix(-2.7365795,0.28202934,-0.18908311,-0.99988321,239.54008,-879.45557)">
+       osb:paint="solid">
       <stop
-         style="stop-color:#666666;stop-opacity:1;"
+         id="stop19284"
          offset="0"
-         id="stop19284" />
+         style="stop-color:#666666;stop-opacity:1;" />
     </linearGradient>
   </defs>
   <g
-     transform="translate(-381.00015,-339)"
-     style="display:inline"
-     inkscape:label="status"
+     inkscape:groupmode="layer"
      id="layer9"
-     inkscape:groupmode="layer">
+     inkscape:label="status"
+     style="display:inline"
+     transform="translate(-381.00015,-339)">
     <path
-       style="color:#bebebe;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:'Andale Mono';text-indent:0pt;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.78125;marker:none"
-       sodipodi:nodetypes="csssc"
+       inkscape:connector-curvature="0"
+       d="m 388.00015,341.99995 c -2.20743,0 -4.00005,1.79261 -4.00005,4.00005 0,2.20743 1.79262,4.00005 4.00005,4.00005 2.20743,0 4.00005,-1.79262 4.00005,-4.00005 0,-2.20744 -1.79262,-4.00005 -4.00005,-4.00005 z"
        id="path9555"
-       d="m 388.00015,343.01754 c -1.64587,0 -2.98246,1.33658 -2.98246,2.98246 0,1.64587 1.33659,2.98246 2.98246,2.98246 1.64587,0 2.98246,-1.33659 2.98246,-2.98246 0,-1.64588 -1.33659,-2.98246 -2.98246,-2.98246 z"
-       inkscape:connector-curvature="0" />
+       sodipodi:nodetypes="csssc"
+       style="color:#bebebe;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:'Andale Mono';text-indent:0pt;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#bebebe;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.38899732;marker:none" />
   </g>
   <g
-     transform="translate(-381.00015,-339)"
-     style="display:inline"
-     inkscape:label="devices"
+     inkscape:groupmode="layer"
      id="layer10"
-     inkscape:groupmode="layer" />
+     inkscape:label="devices"
+     style="display:inline"
+     transform="translate(-381.00015,-339)" />
   <g
-     transform="translate(-381.00015,-339)"
-     inkscape:label="apps"
+     inkscape:groupmode="layer"
      id="layer11"
-     inkscape:groupmode="layer" />
+     inkscape:label="apps"
+     transform="translate(-381.00015,-339)" />
   <g
-     transform="translate(-381.00015,-339)"
-     style="display:inline"
-     inkscape:label="places"
+     inkscape:groupmode="layer"
      id="layer13"
-     inkscape:groupmode="layer" />
+     inkscape:label="places"
+     style="display:inline"
+     transform="translate(-381.00015,-339)" />
   <g
-     transform="translate(-381.00015,-339)"
-     inkscape:label="mimetypes"
+     inkscape:groupmode="layer"
      id="layer14"
-     inkscape:groupmode="layer" />
+     inkscape:label="mimetypes"
+     transform="translate(-381.00015,-339)" />
   <g
-     transform="translate(-381.00015,-339)"
-     style="display:inline"
-     inkscape:label="emblems"
+     inkscape:groupmode="layer"
      id="layer15"
-     inkscape:groupmode="layer" />
-  <g
-     transform="translate(-381.00015,-339)"
+     inkscape:label="emblems"
      style="display:inline"
-     inkscape:label="emotes"
+     transform="translate(-381.00015,-339)" />
+  <g
+     inkscape:groupmode="layer"
      id="g71291"
-     inkscape:groupmode="layer" />
-  <g
-     transform="translate(-381.00015,-339)"
+     inkscape:label="emotes"
      style="display:inline"
-     inkscape:label="categories"
+     transform="translate(-381.00015,-339)" />
+  <g
+     inkscape:groupmode="layer"
      id="g4953"
-     inkscape:groupmode="layer" />
-  <g
-     transform="translate(-381.00015,-339)"
+     inkscape:label="categories"
      style="display:inline"
-     inkscape:label="actions"
+     transform="translate(-381.00015,-339)" />
+  <g
+     inkscape:groupmode="layer"
      id="layer12"
-     inkscape:groupmode="layer" />
+     inkscape:label="actions"
+     style="display:inline"
+     transform="translate(-381.00015,-339)" />
 </svg>
