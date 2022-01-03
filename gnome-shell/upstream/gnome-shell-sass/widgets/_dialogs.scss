@@ -148,7 +148,7 @@
   border: 1px solid $bubble_borders_color;
   border-radius: 12px;
   &:hover,&:focus { background-color: $hover_bg_color; }
-  &:active { 
+  &:active {
     background-color: $selected_bg_color;
     color: $selected_fg_color;
   }
@@ -165,7 +165,7 @@
 
 /* Welcome dialog */
 .welcome-dialog-image {
-  background-image: url("resource:///org/gnome/shell/theme/gnome-shell-start.svg");
+  background-image: url("gnome-shell-start.svg");
   background-size: contain;
   /* Reasonable maximum dimensions */
   height: 300px;
