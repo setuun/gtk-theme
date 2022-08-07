@@ -10,7 +10,7 @@ scale {
   &.temperature trough {
     background-image: linear-gradient(
       to right,
-      rgba(#FEB573, 0.4),
+      rgba(#feb573, 0.4),
       $light_neutral_grey_300,
       #FFD7A1
     );
@@ -19,7 +19,7 @@ scale {
   &.temperature:dir(rtl) trough {
     background-image: linear-gradient(
       to left,
-      rgba(#FEB573, 0.4),
+      rgba(#feb573, 0.4),
       $light_neutral_grey_300,
       #FFD7A1
     );

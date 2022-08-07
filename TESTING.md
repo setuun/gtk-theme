@@ -119,11 +119,11 @@ Things to look at:
   - Light theme: #F6F6F6 / #FCFCFC
   - Dark theme: #303030  / #272727
  - Green selection:
-  - Light theme: #FFAD00 / #FBB86C
-  - Dark theme: #FBB86C  / #FBB86C
+  - Light theme: #FFAD00 / #feb573
+  - Dark theme: #feb573  / #feb573
  - Orange:
-  - Light theme: #FFAD00 / #FBB86C
-  - Dark theme: #FBB86C / #FFD7A1
+  - Light theme: #FFAD00 / #feb573
+  - Dark theme: #feb573 / #FFD7A1
  - Blue:
-  - Light theme: #FFAD00 / #FEB573
-  - Dark theme: #FEB573 / #FFAD00
+  - Light theme: #FFAD00 / #feb573
+  - Dark theme: #feb573 / #FFAD00

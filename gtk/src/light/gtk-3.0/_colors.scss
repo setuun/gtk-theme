@@ -28,7 +28,7 @@ $scrollbar_slider_active_color: if($variant=='light', darken($selected_bg_color,
 
 $warning_color: if($variant=='light', #FEDB40, #FFF19E);
 $error_color: if($variant=='light', #E56A54, #EA9090);
-$success_color: if($variant=='light', #FFAD00, #FBB86C);
+$success_color: if($variant=='light', #FFAD00, #feb573);
 $destructive_color: if($variant=='light', #E56A54, #EA9090);
 
 $osd_fg_color: #eeeeec;

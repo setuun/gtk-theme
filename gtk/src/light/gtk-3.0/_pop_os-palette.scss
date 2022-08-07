@@ -1,19 +1,19 @@
 
 // Orange
-$orange: if($variant=='light', #FFAD00, #FBB86C);
-$highlights_orange: if($variant=='light', #FBB86C, #FFAD00);
+$orange: if($variant=='light', #FFAD00, #feb573);
+$highlights_orange: if($variant=='light', #feb573, #FFAD00);
 $text_orange: if($variant=='light', #AF5C02, #FFD7A1);
 
 // blue
-$blue: if($variant=='light', #FFAD00, #FEB573);
-$highlights_blue: if($variant=='light', #FEB573, #FFAD00);
-//$text_blue: if($variant=='light', #00496D, #FEB573);
-$text_blue: if($variant=='light', #00496D, #FEB573);
+$blue: if($variant=='light', #63B1BC, #6ACAD8);
+$highlights_blue: if($variant=='light', #6ACAD8, #63B1BC);
+//$text_blue: if($variant=='light', #00496D, #94EBEB);
+$text_blue: if($variant=='light', #00496D, #6ACAD8);
 
 // green
-$green: if($variant=='light', #FFAD00, #FBB86C);
-$highlights_green: if($variant=='light', #FBB86C, #FFAD00);
-$text_green: if($variant=='light', #FFAD00, #FBB86C);
+$green: if($variant=='light', #82BF8C, #90CFB0);
+$highlights_green: if($variant=='light', #90CFB0, #82BF8C);
+$text_green: if($variant=='light', #3B6E43, #ACF7D2);
 
 // red
 $red: if($variant=='light', #E56A54, #EA9090);
