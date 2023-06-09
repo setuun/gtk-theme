@@ -286,16 +286,16 @@ headerbar,
       &:backdrop {
         border-color: $_btn_backdrop_border;
       }
-  
+
       &:checked {
         color: $selected_fg_color;
         border-color: transparentize($checkradio_bg_color, 0.6);
         background-color: $checkradio_bg_color;
       }
-  
+
       slider {
         border-color: $_headerbar_button_bg;
-        
+
         &:checked {
           border-color: $checkradio_bg_color;
         }
@@ -304,7 +304,7 @@ headerbar,
           border-color: $_dark_border_color;
           @include button(insensitive, $headerbar_bg_color);
         }
-      }      
+      }
     }
   }
 
@@ -472,7 +472,7 @@ headerbar,
 }
 
 // separators in paned headerbars, #405
-// We can't seem to use rgba here, so we darken the 
+// We can't seem to use rgba here, so we darken the
 // headerbar_bg_color instead.
 paned.titlebar > separator {
   color: darken($headerbar_bg_color, 5%);
@@ -744,7 +744,7 @@ switch {
       border-width: 0px;
       border-color: $bg_color;
       box-shadow: none;
-    } 
+    }
     @else {
       @include button(normal-alt, $c: lighten($bg_color, 6%), $edge: none);
       border-width: 0px;
@@ -752,7 +752,7 @@ switch {
       box-shadow: none;
     }
   }
-  
+
   image { color: transparent; } /* only show i / o for the accessible theme */
 
   &:hover slider {
@@ -853,7 +853,7 @@ scale {
       transition-property: background, border, box-shadow;
     }
 
-    &:hover { 
+    &:hover {
       @include button(hover-alt, $edge: none);
       background-image: none;
       background-color: $selected_bg_color;
@@ -861,11 +861,11 @@ scale {
       box-shadow: 0 1px 0 rgba(black, 0.1);
     }
 
-    &:active { 
+    &:active {
       border-color: lighten($selected_bg_color, 20%);
     }
 
-    &:disabled { 
+    &:disabled {
       @include button(insensitive);
       background-image: none;
       background-color: mix($selected_bg_color, $bg_color, 50%);
@@ -882,7 +882,7 @@ scale {
     }
 
     // ...on selected list rows
-    row:selected & {  
+    row:selected & {
       background-color: $selected_fg_color;
       border-color: $selected_fg_color;
 
@@ -892,4 +892,9 @@ scale {
       }
     }
   }
+}
+
+window.maximized,
+window.fullscreen {
+  margin: 20px !important;
 }
