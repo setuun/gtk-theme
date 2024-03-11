@@ -9,7 +9,7 @@ $bg_color: if($variant == 'light', $light_ui_300, $dark_neutral_grey_700);
 $fg_color: if($variant == 'light', $dark_ui_900, $light_ui_500);
 
 $selected_fg_color: $black;
-$selected_bg_color: $blue;
+$selected_bg_color: $orange;
 $selected_borders_color: if($variant == 'light', darken($selected_bg_color, 15%), darken($selected_bg_color, 30%));
 $borders_edge: if($variant == 'light', transparentize($white, 0.2), transparentize($fg_color, 0.93));
 $link_color: $text_blue;
